@@ -3,6 +3,241 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.10](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.9...v5.1.10) (2024-12-11)
+
+
+### Bug Fixes
+
+* trigger version update ([eb5f676](https://github.com/scratchfoundation/scratch-gui/commit/eb5f6766678af3ca2e19051da7e7625b13473dab))
+
+## [5.1.9](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.8...v5.1.9) (2024-12-10)
+
+
+### Bug Fixes
+
+* uepr-38: update debug modal image ([face25a](https://github.com/scratchfoundation/scratch-gui/commit/face25a17921400a4418ea6633b5fbd59df1405e))
+
+## [5.1.8](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.7...v5.1.8) (2024-12-10)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([cece7dc](https://github.com/scratchfoundation/scratch-gui/commit/cece7dc1e70863f33617352d2dade3ae6ad6546b))
+
+## [5.1.7](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.6...v5.1.7) (2024-12-09)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([32871b4](https://github.com/scratchfoundation/scratch-gui/commit/32871b4d3645887b5968d7d54585fb3cc60ae791))
+
+## [5.1.6](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.5...v5.1.6) (2024-12-07)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([7835a01](https://github.com/scratchfoundation/scratch-gui/commit/7835a01a36abe5dd1c7555b00a4d2d5fffc67f03))
+
+## [5.1.5](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.4...v5.1.5) (2024-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-svg-renderer to v3 ([a665bac](https://github.com/scratchfoundation/scratch-gui/commit/a665bacc04e67548505de557e607a7700ef4b30a))
+
+## [5.1.4](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.3...v5.1.4) (2024-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v3 ([fc15866](https://github.com/scratchfoundation/scratch-gui/commit/fc15866fe112655f0403429e8ef8de6e3ac0cd78))
+* **deps:** update dependency scratch-vm to v5 ([66bcdef](https://github.com/scratchfoundation/scratch-gui/commit/66bcdefd2072a0ebc89994e413a62ae81e1358eb))
+
+## [5.1.3](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.2...v5.1.3) (2024-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-render to v2 ([6c8bd09](https://github.com/scratchfoundation/scratch-gui/commit/6c8bd09000d5efcca43b491664d80cb91a1308fe))
+
+## [5.1.2](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.1...v5.1.2) (2024-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-audio to v2 ([1099233](https://github.com/scratchfoundation/scratch-gui/commit/1099233320bea21fc2e4f22c0f47c0808743d5d6))
+* **deps:** update dependency scratch-l10n to v5 ([9a9e814](https://github.com/scratchfoundation/scratch-gui/commit/9a9e8148b6f74468d19cb0ca1ef7bbe8acd26e34))
+
+## [5.1.1](https://github.com/scratchfoundation/scratch-gui/compare/v5.1.0...v5.1.1) (2024-12-05)
+
+
+### Bug Fixes
+
+* set publicPath to 'auto' ([853caca](https://github.com/scratchfoundation/scratch-gui/commit/853caca41ac07b76298b8d371f7066311d95588e))
+* use react from external source when building dist ([ab1f65d](https://github.com/scratchfoundation/scratch-gui/commit/ab1f65d8c414873ca32b0961bc7846fd6f1f9c5f))
+
+# [5.1.0](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.5...v5.1.0) (2024-12-04)
+
+
+### Bug Fixes
+
+* uepr-38: debug modal description and image preload ([703907f](https://github.com/scratchfoundation/scratch-gui/commit/703907f92cb5b1076b8f4bc445369c2dd7843dd8))
+* uepr-38: fix imports ([f561493](https://github.com/scratchfoundation/scratch-gui/commit/f56149337c2ebe2525199ddd1d390fdf73f145c6))
+* uepr-38: style fixes ([6e4c051](https://github.com/scratchfoundation/scratch-gui/commit/6e4c0514e1591698dfd050156b953adb9a914140))
+* uepr-38: style updates ([3c7f153](https://github.com/scratchfoundation/scratch-gui/commit/3c7f15354a93f9da2369e5cc927ca8ecc26e9426))
+
+
+### Features
+
+* uepr-38: debug modal changes ([f2adf68](https://github.com/scratchfoundation/scratch-gui/commit/f2adf68789d35b29c44acf971d1b4c9f294dfb9b))
+
+## [5.0.5](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.4...v5.0.5) (2024-12-04)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([ee72988](https://github.com/scratchfoundation/scratch-gui/commit/ee729886c8a0aab374ed694dd7c1ddbffedb9cb4))
+
+## [5.0.4](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.3...v5.0.4) (2024-12-03)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([fd0557f](https://github.com/scratchfoundation/scratch-gui/commit/fd0557fb938ddac591daa6ec9243d166fd8bac5e))
+
+## [5.0.3](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.2...v5.0.3) (2024-11-30)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([ebb05da](https://github.com/scratchfoundation/scratch-gui/commit/ebb05da244a77f739e83864af39bcd841b2fc4da))
+
+## [5.0.2](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.1...v5.0.2) (2024-11-28)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([49657ea](https://github.com/scratchfoundation/scratch-gui/commit/49657ea675661f70847e25fd0fef92671681167c))
+
+## [5.0.1](https://github.com/scratchfoundation/scratch-gui/compare/v5.0.0...v5.0.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([9d8e74d](https://github.com/scratchfoundation/scratch-gui/commit/9d8e74d615f3b44fdb3c5d0ce5e57d796224e949))
+
+# [5.0.0](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.7...v5.0.0) (2024-11-25)
+
+
+* chore!: set license to AGPL-3.0-only ([3de24da](https://github.com/scratchfoundation/scratch-gui/commit/3de24da0f9e46307903a74695a6183d4a6035d9c))
+
+
+### BREAKING CHANGES
+
+* This project is now licensed under the AGPL version 3.0
+
+See https://www.scratchfoundation.org/open-source-license
+
+## [4.1.7](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.6...v4.1.7) (2024-11-23)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([88192de](https://github.com/scratchfoundation/scratch-gui/commit/88192dedb27a516130e63f67d23f70f4177d972c))
+
+## [4.1.6](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.5...v4.1.6) (2024-11-21)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([a5b6abf](https://github.com/scratchfoundation/scratch-gui/commit/a5b6abf9fd6a98c7fbeb9e5e72d8d8a65ef22b4f))
+
+## [4.1.5](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.4...v4.1.5) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([e7f17f9](https://github.com/scratchfoundation/scratch-gui/commit/e7f17f9fba7c047e2c4185b5f4c6b579cd7a2415))
+
+## [4.1.4](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.3...v4.1.4) (2024-11-16)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([c73db8d](https://github.com/scratchfoundation/scratch-gui/commit/c73db8da1cd6a693a8106212ec922c63aa09595d))
+
+## [4.1.3](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.2...v4.1.3) (2024-11-14)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([8a528fd](https://github.com/scratchfoundation/scratch-gui/commit/8a528fdee434bc48ff17d630452395da1ba29101))
+
+## [4.1.2](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.1...v4.1.2) (2024-11-12)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([08346d5](https://github.com/scratchfoundation/scratch-gui/commit/08346d597c17396d79719c17c26cd9854503832f))
+
+## [4.1.1](https://github.com/scratchfoundation/scratch-gui/compare/v4.1.0...v4.1.1) (2024-11-09)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([62f69aa](https://github.com/scratchfoundation/scratch-gui/commit/62f69aaa734a7342bcde4cd084d0cfcde168a540))
+
+# [4.1.0](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.45...v4.1.0) (2024-11-08)
+
+
+### Features
+
+* [UEPR-44] added ability to stop project when playing ([3ede51f](https://github.com/scratchfoundation/scratch-gui/commit/3ede51f0f38e072093d31c3d24913ccd456e01be))
+* [UEPR-44] exported redux action and added additional class to tutorials button ([01f493f](https://github.com/scratchfoundation/scratch-gui/commit/01f493f4db34b9f0875657eda8accbd25bf70d6e))
+
+## [4.0.45](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.44...v4.0.45) (2024-11-07)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([e7cc56c](https://github.com/scratchfoundation/scratch-gui/commit/e7cc56c200af86add3982ad28d290d16df3d1802))
+
+## [4.0.44](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.43...v4.0.44) (2024-11-05)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([910199a](https://github.com/scratchfoundation/scratch-gui/commit/910199a11e3ec8f3b45c52bb4e27597459905938))
+
+## [4.0.43](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.42...v4.0.43) (2024-11-02)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([4293ed6](https://github.com/scratchfoundation/scratch-gui/commit/4293ed6ae9c53fa9a464734e17eee53d3f4de64e))
+
+## [4.0.42](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.41...v4.0.42) (2024-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v4 ([648ab47](https://github.com/scratchfoundation/scratch-gui/commit/648ab47d6b7a2cdc882a96f0d69e120635e04f7c))
+
+## [4.0.41](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.40...v4.0.41) (2024-10-21)
+
+
+### Bug Fixes
+
+* uepr-8: fix library item selection ([c84caa2](https://github.com/scratchfoundation/scratch-gui/commit/c84caa24f137579610ce2fc1d92e7d6ec0f8c07a))
+* uepr-8: Fix test ([533f6f7](https://github.com/scratchfoundation/scratch-gui/commit/533f6f76165c8a9d27af52dad0ec4ad4e3658885))
+
+## [4.0.40](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.39...v4.0.40) (2024-10-21)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([368497a](https://github.com/scratchfoundation/scratch-gui/commit/368497a46e6dee35c6045900d1ad5fb2f6aec74a))
+
 # [4.1.0-spork.1](https://github.com/scratchfoundation/scratch-gui/compare/v4.0.39...v4.1.0-spork.1) (2024-10-21)
 
 
