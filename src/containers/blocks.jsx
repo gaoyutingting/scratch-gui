@@ -267,7 +267,8 @@ class Blocks extends React.Component {
                 .getFlyout()
                 .getCategoryScrollPosition(selectedCategoryName) * scale;
         const offsetWithinCategory =
-            this.workspace.getFlyout().getWorkspace().getMetrics().viewTop -
+            this.workspace.getFlyout().getWorkspace()
+                .getMetrics().viewTop -
             selectedCategoryScrollPosition;
 
         this.workspace.updateToolbox(this.props.toolboxXML);
