@@ -4,7 +4,7 @@ Scratch GUI is a set of React components that comprise the interface for creatin
 
 To open the current build in your browser on Github Pages:
 
-https://scratchfoundation.github.io/scratch-gui/
+<https://scratchfoundation.github.io/scratch-gui/>
 
 ## Installation
 
@@ -45,7 +45,6 @@ Then go to [http://localhost:8601/](http://localhost:8601/) - the playground out
 
 ### Getting another repo to point to this code
 
-
 If you wish to develop `scratch-gui` alongside other scratch repositories that depend on it, you may wish
 to have the other repositories use your local `scratch-gui` build instead of fetching the current production
 version of the scratch-gui that is found by default using `npm install`.
@@ -70,7 +69,7 @@ Instead of `BUILD_MODE=dist npm run build`, you can use `BUILD_MODE=dist npm run
 changes to your `scratch-gui` code, and automatically rebuild when there are changes. Sometimes this has been
 unreliable; if you are having problems, try going back to `BUILD_MODE=dist npm run build` until you resolve them.
 
-#### Oh no! It didn't work!
+#### Oh no! It didn't work
 
 If you can't get linking to work right, try:
 
@@ -93,7 +92,7 @@ See [jest cli docs](https://facebook.github.io/jest/docs/en/cli.html#content) fo
 
 ### Running tests
 
-*NOTE: If you're a Windows user, please run these scripts in Windows `cmd.exe`  instead of Git Bash/MINGW64.*
+_NOTE: If you're a Windows user, please run these scripts in Windows `cmd.exe`  instead of Git Bash/MINGW64._
 
 Before running any tests, make sure you have run `npm install` from this (scratch-gui) repository's top level.
 
@@ -214,15 +213,6 @@ npm install  --no-optional --save-dev react-responsive@^5.0.0
 ```
 
 Further reading: [Stack Overflow](https://stackoverflow.com/questions/46602286/npm-requires-a-peer-of-but-all-peers-are-in-package-json-and-node-modules)
-
-## Troubleshooting
-
-If you run into npm install errors, try these steps:
-
-1. run `npm cache clean --force`
-2. Delete the node_modules directory
-3. Delete package-lock.json
-4. run `npm install` again
 
 ## Publishing to GitHub Pages
 
