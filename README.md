@@ -1,6 +1,27 @@
 # scratch-gui
 
-Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
+## **⚠️ NOTICE: Repository Migration to Mono-Repo ⚠️**
+
+The Scratch Team has migrated the `scratch-gui` module into a new mono-repo,
+[`scratch-editor`](https://github.com/scratchfoundation/scratch-editor). This independent `scratch-gui` repository
+**will be archived**. Any new issues or pull requests should be opened in the mono-repo.
+
+The new mono-repo version of `scratch-gui` is published to the NPM registry as
+[`@scratch/scratch-gui`](https://www.npmjs.com/package/@scratch/scratch-gui).
+
+**Contributors:**
+
+* I would like to thank all past contributors for their work on this repository.
+* If you are aware of valuable issues or pull requests, please consider re-opening them in the mono-repo. If you do
+  so, please link the new issue or pull request to the original one in this repository to help others find it and to
+  reduce the chance of duplicate work.
+* We apologize for the inconvenience and greatly appreciate your help with this transition!
+
+For more information, see the [`scratch-editor` repository on GitHub](https://github.com/scratchfoundation/scratch-editor).
+
+## Overview
+
+Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects.
 
 To open the current build in your browser on Github Pages:
 
