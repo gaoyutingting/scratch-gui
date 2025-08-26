@@ -299,6 +299,7 @@ class Blocks extends React.Component {
             .then(() => {
                 this.workspace.getFlyout().setRecyclingEnabled(false);
                 this.props.vm.refreshWorkspace();
+                this.requestToolboxUpdate();
                 this.withToolboxUpdates(() => {
                     this.workspace.getFlyout().setRecyclingEnabled(true);
                 });
@@ -316,26 +317,27 @@ class Blocks extends React.Component {
         const selectedCategoryScrollPosition =
             this.workspace
                 .getFlyout()
-                .getCategoryScrollPosition(selectedCategoryName).y * scale;
+                .getCategoryScrollPosition(selectedCategoryName) * scale;
         const offsetWithinCategory =
             this.workspace.getFlyout().getWorkspace().getMetrics().viewTop -
             selectedCategoryScrollPosition;
 
         this.workspace.updateToolbox(this.props.toolboxXML);
+        this.workspace.getToolbox().runAfterRerender(() => {
+            const newCategoryScrollPosition = this.workspace
+                .getFlyout()
+                .getCategoryScrollPosition(selectedCategoryName);
+            if (newCategoryScrollPosition) {
+                this.workspace
+                    .getFlyout()
+                    .getWorkspace()
+                    .scrollbar.setY(
+                        newCategoryScrollPosition * scale + offsetWithinCategory
+                    );
+            }
+        });
         this.workspace.getToolbox().forceRerender();
         this._renderedToolboxXML = this.props.toolboxXML;
-
-        const newCategoryScrollPosition = this.workspace
-            .getFlyout()
-            .getCategoryScrollPosition(selectedCategoryName);
-        if (newCategoryScrollPosition) {
-            this.workspace
-                .getFlyout()
-                .getWorkspace()
-                .scrollbar.setY(
-                    newCategoryScrollPosition.y * scale + offsetWithinCategory
-                );
-        }
 
         const queue = this.toolboxUpdateQueue;
         this.toolboxUpdateQueue = [];
@@ -520,7 +522,7 @@ class Blocks extends React.Component {
         this.workspace.removeChangeListener(this.toolboxUpdateChangeListener);
         const dom = this.ScratchBlocks.utils.xml.textToDom(data.xml);
         try {
-            this.ScratchBlocks.Xml.clearWorkspaceAndLoadFromXml(
+            this.ScratchBlocks.clearWorkspaceAndLoadFromXml(
                 dom,
                 this.workspace
             );
